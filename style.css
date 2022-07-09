@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner start */
+.banner {
+    padding-left: 80px;
+    padding-top: 150px;
+    margin-bottom: 100px;
+
+}
+
+.wrapper {
+    display: flex;
+    /* width: 90%; */
+    /* margin: 0 auto; */
+}
+
+.b-content {
+    width: 40%;
+    /* padding-left: 6%; */
+
+
+}
+
+.b-content img {
+    width: 700px;
+    margin-left: 150px;
+    margin-top: -50px;
+}
+
+.b-h1 {
+    color: orange;
+}
+
+.b-content h1 {
+    font-size: 45px;
+    color: #575757;
+    line-height: 75px;
+}
+
+.b-content p {
+    color: gray;
+    font-weight: 500px;
+    margin-bottom: 80px;
+    /* word-spacing: 3px; */
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+.b-content a {
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    transition: .3s all ease-in;
+
+}
+
+.b-content a:hover {
+    background-color: #FB994C;
+    color: black;
+}
+
+/* banner end */
+
+/* about start */
+.about {
+    padding-top: 160px;
+    background-image: url(images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+
+}
+
+.wrap {
+    display: flex;
+
+
+}
+
+.a-content {
+
+    margin: 0 auto;
+}
+
+.a-content img {
+    width: 500px;
+    margin-left: 50px;
+
+}
+
+.a-content a {
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    transition: .3s all ease-in;
+}
+
+.half-width {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.half-width p {
+    color: #707070;
+    line-height: 28px;
+    margin-bottom: 80px;
+    text-transform: capitalize;
+}
+
+.half-width a {
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    transition: .3s all ease-in;
+}
+
+.half-width h2 {
+    font-size: 35px;
+    color: #707070;
+}
+
+.half-width a:hover {
+    background-color: #FB994C;
+    color: black;
+}
+
+/* about end */
+/* recipes start */
+.recipes {
+    overflow: hidden;
+}
+
+.recipes-content {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.recipes-content h1 {
+    font-size: 30px;
+    color: #676767;
+}
+
+.recipes-content p {
+    color: #676767;
+    line-height: 22px;
+}
+
+/* recipes end */
+/* recipe title start */
+.recipe-title {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-image: url(images/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 70px;
+
+}
+
+.container {
+    width: 90%;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+}
+
+.s-item {
+    width: 30%;
+    /* margin-right:60px; */
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(202, 15, 65, 0.1);
+    border-radius: 18px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.s-item img {
+    width: 430px;
+    height: 250px;
+}
+.s-item h2{
+    font-size: 28px;
+}
+.s-item p{
+    margin-bottom: 55px;
+}
+
+/* recipe title end */
+
+
+/* channel start */
+.channel{
+    margin-bottom: 60px;
+    
+   
+}
+.wrapping{
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 40px gray;
+    height: 210px;
+    border-radius: 10px;
+    display: flex;
+}
+.single-item{
+    width: 29%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+  
+ 
+  
+}   
+.single-item h1{
+    font-size: 40px;
+    margin-bottom:0;
+
+}   
+.single-item p{
+    color: gray;
+    font-weight: 500;
+    margin-left: 40px;
+}   
+.c-seven{
+    /* margin-top: -3px; */
+    padding-top: 2px;
+}
+.c-two{
+    margin-left: 45px;
+}
+.c-tw{
+    padding-left: 20px;
+}
+
+/* channel end */
+
+/* footer start */
+    footer{
+        text-align: center;
+        background-color: #0B0D17;
+        padding: 60px;
+    }
+    footer h2{
+        color: #5B5B5B;
+    }
+    footer p{
+        color: #7D7E84;
+        
+    }
+    footer span{
+        color: #FB974B;
+
+    }
+/* footer end */
+
+
+ 
+        
